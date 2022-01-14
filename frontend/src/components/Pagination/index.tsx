@@ -1,8 +1,10 @@
-import {ReactComponent as Arrow } from 'accets/img/arrow.svg';
+import { ReactComponent as Arrow }
+from 'accets/img/arrow.svg';
 import './styles.css';
-function Pagination() {
-    return (
-        <div className="dsmovie-pagination-container">
+
+function Pagination(){
+    return(
+<div className="dsmovie-pagination-container">
     <div className="dsmovie-pagination-box">
         <button className="dsmovie-pagination-button" disabled={true} >
             <Arrow />
@@ -13,7 +15,6 @@ function Pagination() {
         </button>
     </div>
 </div>
-
     );
 }
 export default Pagination;
